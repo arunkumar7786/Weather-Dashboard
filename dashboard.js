@@ -26,8 +26,6 @@ logoutBtn.addEventListener("click", () => {
     window.location.href = "index.html";
 });
 
-// Replace this with YOUR API KEY
-const API_KEY = "2c78d9cb70b94afdaca71723263006";
 
 searchBtn.addEventListener("click", () => {
 
