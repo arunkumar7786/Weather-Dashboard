@@ -1,14 +1,21 @@
-async function getWeather(city){
+const welcome = document.getElementById("welcome");
 
-    const apiKey = "YOUR_API_KEY";
+const logoutBtn = document.getElementById("logoutBtn");
 
-    const url =
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+const user = localStorage.getItem("loggedInUser");
 
-    const response = await fetch(url);
+if(!user){
 
-    const data = await response.json();
-
-    console.log(data);
+    window.location.href="index.html";
 
 }
+
+welcome.innerText = "Welcome, " + user;
+
+logoutBtn.addEventListener("click",()=>{
+
+    localStorage.removeItem("loggedInUser");
+
+    window.location.href="index.html";
+
+});
