@@ -6,95 +6,46 @@
 }
 
 body{
-
     height:100vh;
-<<<<<<< HEAD
     display:flex;
     justify-content:center;
     align-items:center;
-=======
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     background:linear-gradient(135deg,#4facfe,#00f2fe);
 
 }
 
 .login-container{
-
     background:white;
-<<<<<<< HEAD
     width:350px;
     padding:40px;
     border-radius:15px;
     text-align:center;
-=======
-
-    width:350px;
-
-    padding:40px;
-
-    border-radius:15px;
-
-    text-align:center;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 }
 
 .login-container h1{
-<<<<<<< HEAD
-=======
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     margin-bottom:10px;
 
 }
 
 .login-container p{
-<<<<<<< HEAD
     color:#666;
-=======
-
-    color:#666;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     margin-bottom:20px;
 
 }
 
 input{
-<<<<<<< HEAD
     width:100%;
     padding:12px;
     margin-bottom:15px;
     border:1px solid #ddd;
     border-radius:8px;
-=======
-
-    width:100%;
-
-    padding:12px;
-
-    margin-bottom:15px;
-
-    border:1px solid #ddd;
-
-    border-radius:8px;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     font-size:16px;
 
 }
 
 button{
-<<<<<<< HEAD
     width:100%;
     padding:12px;
     border:none;
@@ -103,49 +54,18 @@ button{
     color:white;
     font-size:17px;
     cursor:pointer;
-=======
-
-    width:100%;
-
-    padding:12px;
-
-    border:none;
-
-    border-radius:8px;
-
-    background:#2196f3;
-
-    color:white;
-
-    font-size:17px;
-
-    cursor:pointer;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     transition:.3s;
 
 }
 
 button:hover{
-<<<<<<< HEAD
-=======
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     background:#1976d2;
 
 }
 
 #error{
-<<<<<<< HEAD
     color:red;
     margin-top:15px;
-=======
-
-    color:red;
-
-    margin-top:15px;
-
->>>>>>> 565000374fa4b03891dea1c452ca1dfe812071d9
     font-weight:bold;
 
 }
